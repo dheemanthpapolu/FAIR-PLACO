@@ -1,0 +1,28 @@
+Reference Material:
+    TermPaper1.pdf
+    TermPaper2.pdf
+    text_task2.pdf
+
+Reports:
+    Task 1 Report.pdf
+    Task 1 Novelty Report.pdf
+    Task 2 Report.pdf
+    Task 3 Report.pdf
+
+Simulations:
+    Task3
+    task2_simulation.py
+
+Output:
+    01_data_bias_distributions.png
+    02_ai_confidence_bias.png
+    03_fairness_metrics_comparison.png
+    Task3/output
+
+Presentation:
+    Presentation.pdf
+
+Team:
+    Adithya Cheruvu - 2023MCB1284
+    Dheemanth Papolu - 2023MCB1230
+    Nachiket Chondhikar - 2023MCB1303
