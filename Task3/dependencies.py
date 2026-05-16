@@ -16,7 +16,7 @@ EPSILON_FAIRNESS = 0.05
 BETA_COST = 0.0
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.abspath(os.path.join(PROJECT_ROOT, ".."))
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 PLOTS_DIR = os.path.join(OUTPUT_DIR, "plots")
 CSV_DIR = os.path.join(OUTPUT_DIR, "csv")
