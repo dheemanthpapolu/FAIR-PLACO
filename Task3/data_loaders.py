@@ -124,7 +124,7 @@ def _synth_sensitive_from_confidence(model_probs):
 
 def load_cifar10h():
     def _build():
-        path = os.path.join(DATA_DIR, "PLACO", "dataset", "cifar10h",
+        path = os.path.join(DATA_DIR, "cifar10h",
                             "cnn_data.csv")
         data = np.genfromtxt(path, delimiter=",")
         y_multi = data[:, 0].astype(int)
@@ -139,7 +139,7 @@ def load_cifar10h():
 
 def load_imagenet():
     def _build():
-        path = os.path.join(DATA_DIR, "PLACO", "dataset", "imagenet",
+        path = os.path.join(DATA_DIR, "imagenet",
                             "imagenet_data.csv")
         data = np.genfromtxt(path, delimiter=",")
         y_multi = data[:, 164].astype(int)
